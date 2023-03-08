@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -a --update --ignore-existing --include="*.html" --exclude="*" /. /..
+rsync -a --update --ignore-existing --include="*.html" --exclude="*" ./ ../
