@@ -1,0 +1,2 @@
+#!/bin/bash
+rsync *.html --update --ignore-existing /. /..
